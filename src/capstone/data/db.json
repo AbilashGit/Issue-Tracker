@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fname": "akash",
+      "lname": "akash",
+      "phoneno": 9896968886,
+      "mail": "akash@gmail.com",
+      "location": "mumbai",
+      "password": "password"
+    },
+    {
+      "fname": "Anand",
+      "lname": "kumar",
+      "phoneno": "8986798700",
+      "mail": "anjibx@jbb.com",
+      "location": "salem",
+      "password": "anand65",
+      "id": 2
+    },
+    {
+      "fname": "Arjun",
+      "lname": "kumar",
+      "phoneno": "8986798700",
+      "mail": "arjun@jbb.com",
+      "location": "chennai",
+      "password": "arjun65",
+      "id": 3
+    },
+    {
+      "fname": "Arjun",
+      "lname": "kumar",
+      "phoneno": "7587989979",
+      "mail": "arjun@gg.com",
+      "location": "kllnl",
+      "password": "khkjjkb",
+      "id": 4
+    },
+    {
+      "fname": "Arun",
+      "lname": "Das",
+      "phoneno": "8797754787",
+      "mail": "arun123@jpg.com",
+      "location": "Madurai",
+      "password": "arun65",
+      "id": 5
+    },
+    {
+      "fname": "gowtham",
+      "lname": "Arputharaj",
+      "phoneno": "8754293454",
+      "mail": "gowtham123@jpg.com",
+      "location": "Pollachi",
+      "password": "gowtham65",
+      "id": 6
+    },
+    {
+      "fname": "Vijay",
+      "lname": "kumar",
+      "phoneno": "8836486548",
+      "mail": "vijay@jpg.com",
+      "location": "Delhi",
+      "password": "vijay@65",
+      "id": 7
+    },
+    {
+      "fname": "Arjun",
+      "lname": "kumar",
+      "phoneno": "7587989979",
+      "mail": "arjun123@gg.com",
+      "location": "kllnl",
+      "password": "arjun65",
+      "id": 8
+    },
+    {
+      "fname": "Anand",
+      "lname": "kumar",
+      "phoneno": "8986798700",
+      "mail": "anjith@jbb.com",
+      "location": "Pollachi",
+      "password": "anjith65",
+      "id": 9
+    },
+    {
+      "fname": "Anand",
+      "lname": "kumar",
+      "phoneno": "8986798700",
+      "mail": "anjib1@jbb.com",
+      "location": "jghdiuga",
+      "password": "hadkjdkj",
+      "id": 10
+    },
+    {
+      "fname": "Akash",
+      "lname": "dhanush",
+      "phoneno": "8738734765",
+      "mail": "akash23@gmail.com",
+      "location": "Pollachi",
+      "password": "akash123",
+      "id": 11
+    },
+    {
+      "fname": "Anand",
+      "lname": "kumar",
+      "phoneno": "8986798700",
+      "mail": "anjibx1@jbb.com",
+      "location": "Madurai",
+      "password": "anjibnx65",
+      "id": 12
+    },
+    {
+      "fname": "edison",
+      "lname": "Ariesh",
+      "phoneno": "7692893976",
+      "mail": "edison@gmail.com",
+      "location": "Mysore",
+      "password": "edison@123",
+      "id": 13
+    },
+    {
+      "fname": "edison",
+      "lname": "Ariesh",
+      "phoneno": "7692893976",
+      "mail": "ariesh.msd@gmail.com",
+      "location": "chennai",
+      "password": "edison123",
+      "id": 14
+    },
+    {
+      "fname": "edison",
+      "lname": "Ariesh",
+      "phoneno": "7692893976",
+      "mail": "ariesh1.msd@gmail.com",
+      "location": "chennai",
+      "password": "edison123",
+      "id": 15
+    }
+  ],
+  "issues": [
+    {
+      "title": "Wrong Display",
+      "isd": "The display design in the desktop is overlapping ",
+      "severity": "Major",
+      "Status": "Open",
+      "cdate": "2021-03-31",
+      "rdate": "",
+      "count": 9,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Wrong Display",
+      "isd": "the issue is with the displaying the data in a unordered way",
+      "severity": "Minor",
+      "Status": "Open",
+      "cdate": "2021-04-02",
+      "rdate": "",
+      "count": 14
+    },
+    {
+      "id": 3,
+      "title": "Invalid name",
+      "isd": "the name of the search item is showing error",
+      "severity": "Major",
+      "Status": "Closed",
+      "cdate": "2021-04-01",
+      "rdate": "",
+      "count": 13
+    },
+    {
+      "title": "On delete",
+      "isd": "The data present in all the issues got deleted",
+      "severity": "Minor",
+      "Status": "Open",
+      "cdate": "2021-04-15",
+      "rdate": "",
+      "count": 3,
+      "id": 4
+    },
+    {
+      "title": "On reload",
+      "isd": "jThe page looks as invisible to the user",
+      "severity": "Minor",
+      "Status": "Open",
+      "cdate": "2021-04-06",
+      "rdate": "",
+      "count": 4,
+      "id": 5
+    },
+    {
+      "title": "User authentication",
+      "isd": "On authentication od a user should be managed",
+      "severity": "Major",
+      "Status": "In Progress",
+      "cdate": "2021-04-01",
+      "rdate": "",
+      "count": 4,
+      "id": 6
+    },
+    {
+      "title": "Wrong Display",
+      "isd": "the display is not visible to the users",
+      "severity": "Major",
+      "Status": "In Progress",
+      "cdate": "2021-04-01",
+      "rdate": "",
+      "count": 7,
+      "id": 7
+    },
+    {
+      "title": "On created",
+      "isd": "The item does not get created in the list",
+      "severity": "Minor",
+      "Status": "Open",
+      "cdate": "2021-03-30",
+      "rdate": "",
+      "count": 6,
+      "id": 8
+    },
+    {
+      "title": "New Issues",
+      "isd": "the issues are coming at the first place",
+      "severity": "Minor",
+      "Status": "Closed",
+      "cdate": "2021-03-29",
+      "rdate": "2021-04-01",
+      "count": 12,
+      "id": 10
+    },
+    {
+      "id": 11,
+      "title": "Wrong Display",
+      "isd": "The display in the previous state of the function displays error",
+      "severity": "Critical",
+      "Status": "Open",
+      "cdate": "2021-03-30",
+      "rdate": "",
+      "count": 15
+    }
+  ]
+}

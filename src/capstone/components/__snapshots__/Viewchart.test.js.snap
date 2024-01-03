@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Viewchart Snapshot Viewchart render correctly 1`] = `
+<div>
+  <br />
+  <br />
+  <br />
+  <b>
+     
+    <Link
+      className="btnLink"
+      to="/home"
+    >
+      Back
+    </Link>
+  </b>
+        
+  <b>
+    Customize Chart1
+  </b>
+   :  
+  <select
+    id="settop"
+    name="settop"
+    onChange={[Function]}
+    value={5}
+  >
+    <option
+      value={5}
+    >
+      5
+    </option>
+    <option
+      value={7}
+    >
+      7
+    </option>
+    <option
+      value={10}
+    >
+      10
+    </option>
+  </select>
+  <div
+    className="App"
+  >
+    <br />
+    <br />
+    <h1>
+      Top Viewed Issues
+    </h1>
+    <div>
+      <Container
+        fluid={false}
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            sm={8}
+          >
+            <Bar
+              data={
+                Object {
+                  "datasets": Array [
+                    Object {
+                      "backgroundColor": Array [
+                        "#87CEEB",
+                        "#87CEEB",
+                        "#87CEEB",
+                        "#87CEEB",
+                      ],
+                      "borderWidth": 4,
+                      "data": Array [
+                        20,
+                        9,
+                        3,
+                        3,
+                      ],
+                      "label": "Number of Views",
+                    },
+                  ],
+                  "labels": Array [
+                    "data issue",
+                    "Wrong Display",
+                    "Invalid name",
+                    "On delete",
+                  ],
+                }
+              }
+              options={
+                Object {
+                  "responsive": true,
+                  "scales": Object {
+                    "xAxes": Array [
+                      Object {
+                        "gridLines": Object {
+                          "display": false,
+                        },
+                      },
+                    ],
+                    "yAxes": Array [
+                      Object {
+                        "gridLines": Object {
+                          "display": false,
+                        },
+                        "ticks": Object {
+                          "autoSkip": true,
+                          "beginAtZero": true,
+                          "maxTicksLimit": 10,
+                        },
+                      },
+                    ],
+                  },
+                  "title": Object {
+                    "display": true,
+                    "text": "THICCNESS SCALE",
+                  },
+                }
+              }
+            />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render correctly 1`] = `
+<BrowserRouter>
+  <div>
+    <Links />
+    <Suspense
+      fallback={
+        <h1>
+          Loading...
+        </h1>
+      }
+    >
+      <Switch>
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "type": [Function],
+            }
+          }
+          exact={true}
+          path="/home"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "type": [Function],
+            }
+          }
+          path="/addissue"
+        />
+        <Route
+          path="/about"
+          render={[Function]}
+        />
+        <Route
+          path="/editissue"
+          render={[Function]}
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "type": [Function],
+            }
+          }
+          path="/login"
+        />
+        <Route
+          component={[Function]}
+          path="/userinfo"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "type": [Function],
+            }
+          }
+          path="/register"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_init": [Function],
+              "_payload": Object {
+                "_result": [Function],
+                "_status": -1,
+              },
+            }
+          }
+          path="/viewchart"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "type": [Function],
+            }
+          }
+          path="/issues/:id"
+        />
+        <Redirect
+          from="/"
+          to="/home"
+        />
+        <Redirect
+          from="/about-issue"
+          to="/home"
+        />
+      </Switch>
+    </Suspense>
+  </div>
+</BrowserRouter>
+`;

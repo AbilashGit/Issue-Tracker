@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Mount Test  renders correctly 1`] = `
+<Connect(IssuesComponent)
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <IssuesComponent
+    actions={
+      Object {
+        "EditIssue": [Function],
+        "EditIssuesSuccess": [Function],
+        "addIssue": [Function],
+        "addIssuesSuccess": [Function],
+        "addUser": [Function],
+        "addUserSuccess": [Function],
+        "deleteIssue": [Function],
+        "deleteIssuesSuccess": [Function],
+        "loadIssues": [Function],
+        "loadIssuesSuccess": [Function],
+        "loadUsers": [Function],
+        "loadUsersSuccess": [Function],
+      }
+    }
+    issues={Array []}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <div>
+      <br />
+      <br />
+      <br />
+      <h1>
+        Issues List
+      </h1>
+      <br />
+      <h2>
+        Welcome 
+      </h2>
+      <br />
+      <input
+        onChange={[Function]}
+        placeholder="Search the Issues..."
+        type="text"
+        value=""
+      />
+      <br />
+            
+      <Dropdown
+        navbar={false}
+      >
+        <ReactOverlaysDropdown
+          itemSelector=".dropdown-item:not(.disabled):not(:disabled)"
+          onToggle={[Function]}
+        >
+          <div
+            className="dropdown"
+          >
+            <DropdownToggle
+              id="dropdown-basic"
+              variant="success"
+            >
+              <Button
+                active={false}
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="dropdown-toggle"
+                disabled={false}
+                id="dropdown-basic"
+                onClick={[Function]}
+                variant="success"
+              >
+                <button
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  className="dropdown-toggle btn btn-success"
+                  disabled={false}
+                  id="dropdown-basic"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Customize
+                </button>
+              </Button>
+            </DropdownToggle>
+            <DropdownMenu
+              align="left"
+              alignRight={false}
+              flip={true}
+            />
+          </div>
+        </ReactOverlaysDropdown>
+      </Dropdown>
+      <br />
+      <br />
+      <br />
+      <Container
+        fluid={true}
+      >
+        <div
+          className="container-fluid"
+        >
+          <Row
+            md={3}
+            noGutters={false}
+            xs={1}
+          >
+            <div
+              className="row row-cols-md-3 row-cols-1"
+            >
+              <br />
+            </div>
+          </Row>
+        </div>
+      </Container>
+      <br />
+    </div>
+  </IssuesComponent>
+</Connect(IssuesComponent)>
+`;
+
+exports[`IssuesComponent Snapshot IssuesComponent render correctly 1`] = `
+<div>
+  <br />
+  <br />
+  <br />
+  <h1>
+    Issues List
+  </h1>
+  <br />
+  <h2>
+    Welcome 
+  </h2>
+  <br />
+  <input
+    onChange={[Function]}
+    placeholder="Search the Issues..."
+    type="text"
+    value=""
+  />
+  <br />
+        
+  <Dropdown
+    navbar={false}
+  >
+    <DropdownToggle
+      id="dropdown-basic"
+      variant="success"
+    >
+      Customize
+    </DropdownToggle>
+    <DropdownMenu
+      align="left"
+      alignRight={false}
+      flip={true}
+    >
+      <label
+        htmlFor="severitycheck"
+      >
+        <input
+          id="severitycheck"
+          name="severitycheck"
+          onChange={[Function]}
+          type="checkbox"
+          value={true}
+        />
+        Severity
+      </label>
+        
+      <label
+        htmlFor="Statuscheck"
+      >
+        <input
+          id="Statuscheck"
+          name="Statuscheck"
+          onChange={[Function]}
+          type="checkbox"
+          value={true}
+        />
+        Status
+      </label>
+        
+      <label
+        htmlFor="isdcheck"
+      >
+        <input
+          id="isdcheck"
+          onChange={[Function]}
+          type="checkbox"
+          value={true}
+        />
+        Issue Desciption
+      </label>
+        
+      <label
+        htmlFor="rdatecheck"
+      >
+        <input
+          id="rdatecheck"
+          onChange={[Function]}
+          type="checkbox"
+          value={true}
+        />
+        Resolved Date
+      </label>
+    </DropdownMenu>
+  </Dropdown>
+  <br />
+  <br />
+  <br />
+  <Container
+    fluid={true}
+  >
+    <Row
+      md={3}
+      noGutters={false}
+      xs={1}
+    >
+      <IssuesComponent
+        Status="InProgress"
+        Statuscheck={true}
+        cdate="2021-03-03"
+        count={20}
+        id={15}
+        isd="data got disconnected"
+        isdcheck={true}
+        key="15"
+        onDelete={[Function]}
+        rdate=""
+        rdatecheck={true}
+        severity="Major"
+        severitycheck={true}
+        title="data issue"
+      />
+      <IssuesComponent
+        Status="Open"
+        Statuscheck={true}
+        cdate="2021-04-02"
+        count={9}
+        id={20}
+        isd="the issue is with the displaying the data in a unordered way"
+        isdcheck={true}
+        key="20"
+        onDelete={[Function]}
+        rdate="2021-04-05"
+        rdatecheck={true}
+        severity="Minor"
+        severitycheck={true}
+        title="Wrong Display"
+      />
+      <IssuesComponent
+        Status="Closed"
+        Statuscheck={true}
+        cdate="2021-04-01"
+        count={3}
+        id={22}
+        isd="the name of the search item is showing error"
+        isdcheck={true}
+        key="22"
+        onDelete={[Function]}
+        rdate=""
+        rdatecheck={true}
+        severity="Major"
+        severitycheck={true}
+        title="Invalid name"
+      />
+      <IssuesComponent
+        Status="Open"
+        Statuscheck={true}
+        cdate="2021-04-15"
+        count={3}
+        id={23}
+        isd="jjjjbjkmkm"
+        isdcheck={true}
+        key="23"
+        onDelete={[Function]}
+        rdate=""
+        rdatecheck={true}
+        severity="Minor"
+        severitycheck={true}
+        title="On delete"
+      />
+      <br />
+    </Row>
+  </Container>
+  <br />
+</div>
+`;

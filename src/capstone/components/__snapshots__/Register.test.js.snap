@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register Snapshot Register render correctly 1`] = `
+<WithFormik(RegisterForm)
+  onSave={[Function]}
+/>
+`;
